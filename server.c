@@ -9,8 +9,8 @@
 #include <arpa/inet.h>
 
 #define _PORT 8000
-
-
+#define _ADDRESS "127.0.0.1"
+#define MASTER_BRANCH 1
 void myhandle(int signal_id)
 {
     printf("recv signal ：%d\n",signal_id);
